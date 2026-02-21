@@ -58,11 +58,6 @@ jobs:
             openvox: "~> 8"
 
           - ruby: "3.0"
-            openvox: "https://github.com/openvoxlabs/puppet.git#main"
-          - ruby: "2.7"
-            openvox: "https://github.com/openvoxlabs/puppet.git#main"
-
-          - ruby: "3.0"
             openvox: "https://github.com/openvoxproject/puppet.git#main"
           - ruby: "2.7"
             openvox: "https://github.com/openvoxproject/puppet.git#main"
