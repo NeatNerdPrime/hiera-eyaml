@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v5.0.0](https://github.com/voxpupuli/hiera-eyaml/tree/v5.0.0) (2026-02-21)
+
+[Full Changelog](https://github.com/voxpupuli/hiera-eyaml/compare/v4.3.0...v5.0.0)
+
+**Breaking changes:**
+
+- adjust CLI newline printing to fix output not matching input [\#389](https://github.com/voxpupuli/hiera-eyaml/pull/389) ([bugfood](https://github.com/bugfood))
+
+**Implemented enhancements:**
+
+- syslog: Allow 0.4 [\#411](https://github.com/voxpupuli/hiera-eyaml/pull/411) ([bastelfreak](https://github.com/bastelfreak))
+- Add Jruby-10 support [\#410](https://github.com/voxpupuli/hiera-eyaml/pull/410) ([bastelfreak](https://github.com/bastelfreak))
+- Add Ruby 4.0 support [\#409](https://github.com/voxpupuli/hiera-eyaml/pull/409) ([bastelfreak](https://github.com/bastelfreak))
+- feat\(\#404\): Accept base64 encoded environment variables as pkcs7 keys [\#405](https://github.com/voxpupuli/hiera-eyaml/pull/405) ([JGodin-C2C](https://github.com/JGodin-C2C))
+- CI: Add Ruby 3.4 support [\#397](https://github.com/voxpupuli/hiera-eyaml/pull/397) ([bastelfreak](https://github.com/bastelfreak))
+
+**Fixed bugs:**
+
+- Trailing newline is added during encryption/decryption [\#272](https://github.com/voxpupuli/hiera-eyaml/issues/272)
+
+**Merged pull requests:**
+
+- README: mention that puppet-hiera can manage hiera-eyaml [\#399](https://github.com/voxpupuli/hiera-eyaml/pull/399) ([kenyon](https://github.com/kenyon))
+
 ## [v4.3.0](https://github.com/voxpupuli/hiera-eyaml/tree/v4.3.0) (2025-06-05)
 
 [Full Changelog](https://github.com/voxpupuli/hiera-eyaml/compare/v4.2.0...v4.3.0)
